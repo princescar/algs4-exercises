@@ -1,0 +1,4 @@
+- a. Remove the word 'then'.
+- b. Missing parentheses around the test condition.
+- c. No problem.
+- d. Missing semicolon after `c = 0`

@@ -1,0 +1,10 @@
+- binomial(100,50,0.25) = 0.75*binomial(99,50,0.25)+0.25*pinomial(99,49,0.25)
+  - binomial(99,50,0.25)
+    - binomial(98,50,0.25)
+      - ...
+      - ...
+    - binomial(98,49,0.25)
+      -
+  - pinomial(99,49,0.25)
+    - pinomial(98,49,0.25)
+    - pinomial(98,48,0.25)

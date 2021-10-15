@@ -1,0 +1,14 @@
+- Function gcd:
+  - If p = q:
+    - r = p % q = 0.
+    - gcd(p, 0).
+  - Else if p < q:
+    - r = p % q = p.
+    - gcd(q, p).
+  - Else: (p > q)
+    - For p = 1, q = 0:
+      - 1.
+    - For p = n (n > 1), q = 1:
+      - r = n % 1 = 0.
+      - gcd(1, 0).
+    - For p = n (n > m), q = m (m > 1):

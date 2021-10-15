@@ -1,0 +1,3 @@
+- The call stack will overflow because there is a infinite recursive call.
+- The boundary statement is below the recursive call statement, which will never be executed.
+- Should place the boundary check statement to the top of the function.

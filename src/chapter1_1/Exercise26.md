@@ -1,0 +1,5 @@
+- Every line will swap the first and the second number if the first number is larger than the second. So after it is excuted, the two numbers will be in non-decreasing order:
+  - `a <= b`
+  - `a <= c`
+  - `b <= c`
+- Which can conclude `a <= b <= c`.
